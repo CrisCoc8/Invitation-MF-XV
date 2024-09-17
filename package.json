@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.2",
+    "nuxt": "^3.12.4",
+    "vue": "^3.4.35"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.0",
+    "tailwindcss": "^3.4.10"
+  }
+}
