@@ -21,7 +21,7 @@
     </section>
 </template>
 <script setup>
-import Gift from '../../assets/images/gift.webp';
+import Gift from '../../assets/images/Gift.webp';
 import LiverpoolImg from '../../assets/images/liverpool.webp';
 import AmazonImg from '../../assets/images/amazon.jpg';
 const giftTablesInfo = [
