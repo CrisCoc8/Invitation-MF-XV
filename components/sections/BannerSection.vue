@@ -35,7 +35,7 @@
 }
 
 .mt-text{
-    font-family: Montserrat;
+    font-family: 'Montserrat' !important;
     font-weight: 400;
     text-shadow: 1px 1px 6px rgba(0,0,0,0.9), 4px 4px 6px rgba(0,0,0,0.5), 8px 8px 11px rgba(0,0,0,0.75), 22px 22px 20px rgba(0,0,0,0.4), -2px -2px 5px rgba(0,0,0,0.2), 2px 2px 5px rgba(0,0,0,0.2) !important;
     color: white;
