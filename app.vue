@@ -7,10 +7,11 @@
     </button>
     <SectionsBannerSection />
     <SectionsMessageSection />
-    <SectionsWhereAndWhenSection />
-    <SectionsRecommendedAccommodationSection />
+    <SectionsParentsAndGodparents />
+    <SectionsSection4 />
     <SectionsItinerarySection />
     <SectionsDressCodeSection />
+    <SectionsWhereAndWhenSection />
     <SectionsOurPhotosSection />
     <SectionsGiftTableSection />
     <SectionsRVSPSection />

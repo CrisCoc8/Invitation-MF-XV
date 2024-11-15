@@ -3,12 +3,12 @@
         <h1 v-if="isDetailedVersion" class="place-title">{{ title }}</h1>
         <img :src=photo alt="" class="place-img">
         <h3 class="place-name">{{ placeName }}</h3>
-        <p v-if="isDetailedVersion" class="place-date">
-            <strong> &#x2022; Cuándo:</strong>
+        <p v-if="isDetailedVersion" class="place-date hidden">
+            <strong class="hidden"> &#x2022; Cuándo:</strong>
             {{ date }}
         </p>
         <p class="place-location">
-            <strong> &#x2022; Dirección:</strong>
+            <strong class="hidden"> &#x2022; Dirección:</strong>
             {{ location }}
         </p>
         <article class="place-btn-section">
@@ -115,17 +115,19 @@ defineProps({
 <style scoped>
 .place-card{
     width: 100%;
-    padding: 0 15%;
+    padding: 0 10.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     align-items: center;
-
+    color: #797777;
+    text-align: center;
 }
 .place-title{
-    @apply w-full text-2xl md:text-3xl;
+    @apply w-full text-4xl md:text-5xl;
     margin-bottom: 25px;
     font-weight: 600;
+    font-family: 'Parisienne';
 }
 .place-img{
     margin: 0px 0px 25px;
@@ -135,13 +137,17 @@ defineProps({
     @apply shadow-md;
 }
 .place-location, .place-date{
-    @apply w-full text-base md:text-xl;
-    font-size: 16px;
+    @apply w-full text-2xl md:text-3xl;
     margin-top: 0;
+    font-weight: 500;
+    font-family: 'Parisienne';
 }
 .place-name{
-    @apply text-lg md:text-2xl;
+    @apply w-full text-3xl md:text-4xl;
     margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Parisienne';
 }
 .place-btn-section{
     width: 100%;
@@ -152,13 +158,14 @@ defineProps({
     margin-top: 25px;
 }
 .map-btn, .calendar-btn{
-    @apply shadow-md w-full md:w-11/12 lg:w-10/12 text-base;
+    @apply shadow-md w-full md:w-11/12 lg:w-10/12 text-base uppercase;
     height: 48px;
-    border-radius: 8px;
-    background-color: #cb8b7a;
-    color: white;
-    font-weight: 600;
+    border-radius: 25px;
+    background-color: #f3ced9;
+    color: #797777;
+    font-weight: 700;
     border: none;
+    font-family: inherit;
 }
 
 .map-btn:hover, .calendar-btn:hover{

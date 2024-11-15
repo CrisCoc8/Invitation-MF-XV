@@ -15,38 +15,38 @@
     </section>
 </template> 
 <script setup>
-import churchPhoto from '../../assets/images/church.jpg';
-import receptionPhoto from '../../assets/images/reception.jpg';
+import churchPhoto from '../../assets/images/church.webp';
+import receptionPhoto from '../../assets/images/reception.webp';
 
     const placesInfo = [
         {
             title: 'Ceremonia religiosa ',
             photo: churchPhoto,
-            placeName: 'Parroquia del Señor de la Misericordia',
-            date: '26 de Octubre de 2024 17:00 hrs',
-            location: 'Coronel Guerrero #50, Col. Centro, Ocotlán, Jalisco',
-            mapBtnMetadata: ['https://maps.app.goo.gl/AXvksriEm7Fv1Gcb9', 'https://maps.apple.com/?address=Coronel%20Guerrero%2052,%20Centro,%2047800%20Ocotl%C3%A1n,%20Jal.,%20Mexico&auid=16115401456969187167&ll=20.345764,-102.773881&lsp=9902&q=Parroquia%20del%20Senor%20de%20la%20Misercordia&t=m'],
+            placeName: 'Templo de Nuestra Señora del Rosario',
+            date: '28 de Diciembre de 2024 18:00 hrs',
+            location: 'Calle Panamá S/N El Rosario, Ocotlán, Jalisco',
+            mapBtnMetadata: ['https://maps.app.goo.gl/Up3DvmVhP9oVFQXS9', 'https://maps.apple.com/?address=Coronel%20Guerrero%2052,%20Centro,%2047800%20Ocotl%C3%A1n,%20Jal.,%20Mexico&auid=16115401456969187167&ll=20.345764,-102.773881&lsp=9902&q=Parroquia%20del%20Senor%20de%20la%20Misercordia&t=m'],
             calendarBtnMetadata: {
-                "start": "20241026T170000", // AñoMesDíaTHoraMinuto
-                "end": "20241026T180000", 
-                "title": "Boda Migue y Telma",
-                "description": "Ceremonia religiosa en la Parroquia del Señor de la Misericordia.",
-                "location": "Coronel Guerrero #50, Col. Centro, Ocotlán, Jalisco"
+                "start": "20241228T180000", // AñoMesDíaTHoraMinuto
+                "end": "20241026T190000", 
+                "title": "XV Marifer",
+                "description": "Ceremonia religiosa en el Templo de Nuestra Señora del Rosario",
+                "location": "Calle Panamá S/N El Rosario, Ocotlán, Jalisco"
             },
         },
         {
             title: 'Recepción',
             photo:  receptionPhoto,
-            placeName: 'Salón de eventos "El Molino Jardín"',
-            date: '26 de Octubre de 2024 19:00 hrs',
-            location: 'Av. Universidad #2000 2710, Col. Rio Zula II, Ocotlán, Jalisco',
-            mapBtnMetadata: ['https://www.google.com/maps/place/El+Molino+Jard%C3%ADn/@20.3978043,-102.7432885,18.46z/data=!4m6!3m5!1s0x842ed93dadc32523:0xf8c4010af5e84775!8m2!3d20.3981217!4d-102.7417561!16s%2Fg%2F11pfgy51cf?entry=ttu&g_ep=EgoyMDI0MDkwOC4wIKXMDSoASAFQAw%3D%3D', 'https://maps.apple.com/?auid=1973261491745594002&ll=20.399056,-102.739415&lsp=7618&q=Dropped%20Pin&t=m'],
+            placeName: 'Salón de Eventos “Los Kristales”',
+            date: '26 de Diciembre de 2024 20:00 hrs',
+            location: 'Calle Efraín González Luna #102, El Porvenir, Ocotlán, Jalisco',
+            mapBtnMetadata: ['https://maps.app.goo.gl/3Y55WFeDkbHq1enK6', 'https://maps.apple.com/?auid=1973261491745594002&ll=20.399056,-102.739415&lsp=7618&q=Dropped%20Pin&t=m'],
             calendarBtnMetadata: {
-                "start": "20241026T190000", // AñoMesDíaTHoraMinuto
-                "end": "20241027T030000", 
-                "title": "Fiesta Miguel y Telma",
-                "description": "Celebracion en el Salón de eventos 'El Molino Jardín'.",
-                "location": "Av. Universidad #2000 2710, Col. Rio Zula II, Ocotlán, Jalisco"
+                "start": "20241228T200000", // AñoMesDíaTHoraMinuto
+                "end": "20241229T030000", 
+                "title": "XV Marifer",
+                "description": "Salón de Eventos “Los Kristales”",
+                "location": "Calle Efraín González Luna #102, El Porvenir, Ocotlán, Jalisco"
             },
         },
     ]
@@ -64,12 +64,12 @@ import receptionPhoto from '../../assets/images/reception.jpg';
 }
 
 .location-title{
-    color: black;
+    color: #797777;
     text-align: center;
     @apply w-full text-5xl md:text-6xl;
     margin: 5px 0 10px;
     font-style: italic;
-    font-family: 'Great Vibes';
+    font-family: 'Parisienne';
 }
 
 .locations-list{

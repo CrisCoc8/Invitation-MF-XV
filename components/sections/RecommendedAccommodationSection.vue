@@ -70,7 +70,7 @@ const acommodations = [
     text-align: center;
     @apply w-full text-5xl md:text-6xl;
     margin: 0 0 35px;
-    font-family: 'Great Vibes';
+    font-family: 'Parisienne';
 }
 
 .accomodations-desc{
