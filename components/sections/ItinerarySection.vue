@@ -7,7 +7,7 @@
     </section>
 </template>
 <script setup>
-import ItineraryPhoto from '../../assets/images/itinerario.webp';
+import ItineraryPhoto from '../../assets/images/Itinerario.webp';
 
 </script>
 <style scoped>
