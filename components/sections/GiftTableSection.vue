@@ -30,7 +30,7 @@ const giftTablesInfo = [
     {
         name: 'Amazon',
         placePhoto: AmazonImg,
-        url: 'https://www.amazon.com.mx/registries/gl/guest-view/Q970ZEP9ZLBK'
+        url: 'https://www.amazon.com.mx/registries/gl/guest-view/17TQ9XTQ9Y589'
     },
     {
         name: 'Liverpool',
