@@ -1,7 +1,7 @@
 <template>
     <div v-if="showModal" class="modal-overlay">
       <div class="modal-content">
-        <p class="join-us-text">Quiero festejar mis XV’s bailando y gozando con la gente que más quiero, <br> ¿Vienes?</p>
+        <p class="join-us-text">Quiero festejar mis XV’s bailando y gozando con la gente que más quiero, este 28 de Diciembre del 2024 <br> ¿Vienes?</p>
         <button class="close-btn" @click="closeModal">
           ACEPTAR
         </button>

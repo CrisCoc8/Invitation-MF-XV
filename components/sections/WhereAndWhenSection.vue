@@ -28,7 +28,7 @@ import receptionPhoto from '../../assets/images/reception.webp';
             mapBtnMetadata: ['https://maps.app.goo.gl/Up3DvmVhP9oVFQXS9', 'https://maps.apple.com/?address=Coronel%20Guerrero%2052,%20Centro,%2047800%20Ocotl%C3%A1n,%20Jal.,%20Mexico&auid=16115401456969187167&ll=20.345764,-102.773881&lsp=9902&q=Parroquia%20del%20Senor%20de%20la%20Misercordia&t=m'],
             calendarBtnMetadata: {
                 "start": "20241228T180000", // AñoMesDíaTHoraMinuto
-                "end": "20241026T190000", 
+                "end": "20241229T190000", 
                 "title": "XV Marifer",
                 "description": "Ceremonia religiosa en el Templo de Nuestra Señora del Rosario",
                 "location": "Calle Panamá S/N El Rosario, Ocotlán, Jalisco"
@@ -38,7 +38,7 @@ import receptionPhoto from '../../assets/images/reception.webp';
             title: 'Recepción',
             photo:  receptionPhoto,
             placeName: 'Salón de Eventos “Los Kristales”',
-            date: '26 de Diciembre de 2024 20:00 hrs',
+            date: '28 de Diciembre de 2024 20:00 hrs',
             location: 'Calle Efraín González Luna #102, El Porvenir, Ocotlán, Jalisco',
             mapBtnMetadata: ['https://maps.app.goo.gl/3Y55WFeDkbHq1enK6', 'https://maps.apple.com/?auid=1973261491745594002&ll=20.399056,-102.739415&lsp=7618&q=Dropped%20Pin&t=m'],
             calendarBtnMetadata: {

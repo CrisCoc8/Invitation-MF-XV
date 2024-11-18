@@ -3,7 +3,7 @@
         <h1 v-if="isDetailedVersion" class="place-title">{{ title }}</h1>
         <img :src=photo alt="" class="place-img">
         <h3 class="place-name">{{ placeName }}</h3>
-        <p v-if="isDetailedVersion" class="place-date hidden">
+        <p v-if="isDetailedVersion" class="place-date">
             <strong class="hidden"> &#x2022; Cuándo:</strong>
             {{ date }}
         </p>
@@ -136,8 +136,14 @@ defineProps({
     border-radius: 10px;
     @apply shadow-md;
 }
-.place-location, .place-date{
+.place-location {
     @apply w-full text-2xl md:text-3xl;
+    margin-top: 0;
+    font-weight: 500;
+    font-family: 'Parisienne';
+}
+.place-date{
+    @apply w-full text-xl md:text-2xl mb-3;
     margin-top: 0;
     font-weight: 500;
     font-family: 'Parisienne';
