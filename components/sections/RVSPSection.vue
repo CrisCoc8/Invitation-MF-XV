@@ -40,7 +40,7 @@
             CONFIRMA TU ASISTENCIA
         </p>
         <p class="rvsp-support">
-            Favor de confirmar tu asistencia antes del 09 diciembre 2024
+            Favor de confirmar tu asistencia
         </p>
         <article class="rvsp-btn-section">
             <button class="rvsp-girlfriend-btn" @click="openWhatsApp('Rosy')">
